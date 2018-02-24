@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding-left: 150px;
+  font-family: 'Mukta Malar', sans-seriff;
+  background-color: #F7F7F7;
+}
+
+header {
+  background-color: #FDFDFD;
+  box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding-left: 50px;
+}
+
+h1 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1 {
+  color: #1A2930;
+  font-size: 30px;
+  margin: 0 60px 0 0;
+}
+
+h1 span {
+  color: #FF0000;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+form {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+}
+.search-text {
+  vertical-align: middle;
+  font-size: 20px;
+  width: 500px;
+  height: 30px;
+  border: 1px #D1D1D1 solid;
+  padding-left: 10px;
+  box-shadow: inset 0 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+.search-text:focus {
+  border-color: #303030;
+}
+
+.search-img {
+  height: 30px;
+  border: none;
+  border: 1px #D1D1D1 solid;
+  border-left: none;
+  padding: 0 20px;
+}
+.search-img img {
+  height: 24px;
+}
+.resultNumber {
+  font-size: 28px;
+}
+
+
+main {
+  margin-top: 110px;
+}
+h2 {
+  font-weight: 450;
+  margin: 0 20px 0 0;
+}
+h3 {
+  margin: 0;
+  font-size: 1.3em;
+  color: black;
+}
+
+.image-container-style {
+  height: auto;
+  width: 1000px;
+  padding: 10px 0;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: flex-start;
+}
+.image-size {
+  width: 320px;
+  height: 180px;
+}
+ul {
+  list-style: none;
+  margin: 0;
+}
+.title-link {
+  text-decoration: none;
+}
+.channel {
+  color: #707070;
+  font-size: 1.15em;
+  margin-top: 0;
+}
+.date-style {
+  font-size: 1.2em;
+}
+.description {
+  color: #707070;
+  font-size: 1.125em;
+  font-weight: 200;
+}
+
+.validation-style {
+  font-size: 30px;
+  margin: 100px 0;
+  color: #B33A3A;
+}
+
+
+footer button {
+  line-height: 200%;
+}
+.prev-button {
+  margin-right: 20px;
+}
+
+
+
+a:focus, input:focus,
+button:focus, h3:focus {
+  outline: 5px dotted green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

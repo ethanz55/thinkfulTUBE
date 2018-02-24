@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>ThinkfulTUBE</title>
+    <script
+          src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Mukta+Malar" rel="stylesheet">
+  </head>
+  <body>
+    
+    <header>
+      <nav class="container" role="navigation">
+        <h1><a href="index.html">Thinkful<span>TUBE</span></a></h1>
+        <form class="js-form" autocomplete="off">
+          <label for="input-search"></label>
+          <input type="text" name="input-search" id="search" class="search-text js-search-text" placeholder="Search">
+          <button type="submit" class="search-img">
+          <img src="https://tf-assets-prod.s3.amazonaws.com/tf-curric/WEB-DEV-001/2.4.6_challenge_design_to_code/magnifying-glass.png" alt="magnifying glass">
+          </button>
+          
+          <!--<input type="image" class="search-img" alt="magnifying glass" src="https://tf-assets-prod.s3.amazonaws.com/tf-curric/WEB-DEV-001/2.4.6_challenge_design_to_code/magnifying-glass.png"> -->
+        </form>
+      </nav>
+    </header>
+    
+    <main role="main">
+      <span class="js-results-header"></span>
+      <div class="js-page-inserts" aria-live="assertive">
+      </div>
+    </main>
+    <!--
+    <footer role="contentinfo">
+      <button name="prevButton" class="prev-button">&lt;&lt; prev</button>
+      <button name="nextButton">next &gt;&gt;</button>
+    </footer>
+    -->
+
+    
+    <script src="index.js"></script>
+  </body>
+</html>
